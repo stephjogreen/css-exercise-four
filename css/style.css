@@ -1,69 +1,64 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 * {
   box-sizing: border-box;
+	display: block;
 }
 
 body {
+    background-color: #fff;
+		font-size: 16px;
+    line-height: 15em;
+    width: 575px;
+    border:0px;
+    padding: 50px 10px 50px;
+    margin: 0px 200px 0px;
+}
+
+@media screen and (min-width: 575px) {
+  body {
   background-color: #fff;
-  font-size: 16px;
+ }
+ @media screen and (min-width: 1199px) {
+   body {
+     background-color: #fff;
+   }
+ }
 }
 
-.preview-baku {
-  background: #fff url("./baku.jpg") no-repeat center;
-  background-size: contain;
-}
-
-.container {
-  line-height: 8em;
-  margin: 0 auto;
-  width: 300px;
+h1 {
+	font-family: sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
   background-color: #dadada;
+}
+
+h2 {
+	text-indent: 30px;
+	font-size: 1.3em;
+  padding-bottom: 250px;
+}
+.preview {
+  border-top-style: solid;
+  border-color: #dadada;
+  border-width: 30px;
+}
+.baku {
+	background-image: url("../images/baku.jpg");
+  background-size: cover;
+}
+
+.london {
+  background-image: url("../images/london.png");
+  background-size: cover;
+}
+
+.madrid {
+  background-image: url("../images/madrid.jpg");
+  background-size: cover;
+}
+
+.rome {
+  background-image: url("../images/rome.jpg");
+  background-size: cover;
 }
