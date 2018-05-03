@@ -14,17 +14,6 @@ body {
     margin: 0px 200px 0px;
 }
 
-@media screen and (min-width: 575px) {
-  body {
-  background-color: #fff;
- }
- @media screen and (min-width: 1199px) {
-   body {
-     background-color: #fff;
-   }
- }
-}
-
 h1 {
 	font-family: sans-serif;
 	text-align: center;
@@ -61,4 +50,26 @@ h2 {
 .rome {
   background-image: url("../images/rome.jpg");
   background-size: cover;
+}
+
+div {
+  background-color: #dadada;
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20px 25px;
+}
+
+@media screen and (min-width: 991px){
+   div {
+    margin: 0%;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1199px){
+   div {
+    margin: 0%;
+    width: 25%;
+  }
 }
