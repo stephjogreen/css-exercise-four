@@ -5,10 +5,10 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #dadada;
 		font-size: 16px;
     line-height: 15em;
-    width: 575px;
+    /*width: 575px;*/
     border:0px;
     padding: 50px 10px 50px;
     margin: 0px 200px 0px;
@@ -19,18 +19,19 @@ h1 {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-  background-color: #dadada;
+  /*background-color: #dadada;*/
 }
 
 h2 {
 	text-indent: 30px;
 	font-size: 1.3em;
-  padding-bottom: 250px;
+  /*padding-bottom: 250px;*/
 }
 .preview {
   border-top-style: solid;
   border-color: #dadada;
   border-width: 30px;
+  margin: 10px; /*added per instructions*/
 }
 .baku {
 	background-image: url("../images/baku.jpg");
@@ -60,14 +61,14 @@ div {
   padding: 20px 25px;
 }
 
-@media screen and (min-width: 991px){
+@media screen and (min-width: 575px){
    div {
     margin: 0%;
     width: 50%;
   }
 }
 
-@media screen and (min-width: 1199px){
+@media screen and (min-width: 991px){
    div {
     margin: 0%;
     width: 25%;
